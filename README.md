@@ -67,3 +67,6 @@
 
 * Component Types
 ![alt text](https://i.imgur.com/o25Ig2f.png)
+
+* Carousel Example
+![alt text](https://i.imgur.com/9FiBTJy.png)
