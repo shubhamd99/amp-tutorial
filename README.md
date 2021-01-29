@@ -4,6 +4,8 @@
 
 * AMP is an open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else. 
 
+* AMP Tutorial Playlist - https://www.youtube.com/playlist?list=PLXTOW_XMsIDS45GB-eBV5s_M9EGIXMjI_
+
 * Documentation - https://amp.dev/documentation/guides-and-tutorials/start/create/?format=websites
 
 * AMP Boilerplate Generator - https://amp.dev/boilerplate/

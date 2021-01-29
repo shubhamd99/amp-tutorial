@@ -49,6 +49,7 @@ app.get('/products/filter', (req, res) => {
 
 app.post('/submit-form', upload.array(), (req, res) => {
   res.append('Content-Type', 'application/json');
+  console.log(JSON.stringify(req.body))
   res.send(JSON.stringify(req.body));
 });
 
