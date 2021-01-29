@@ -10,6 +10,8 @@
 
 * Supported CSS in AMP - https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/style_pages/
 
+* List of AMP Components - https://amp.dev/documentation/components/
+
 * Example:
 
 ```
@@ -59,3 +61,9 @@
 
 * Product AMP Website
 ![alt text](https://i.imgur.com/ijVNj5O.png)
+
+* AMP Components - https://amp.dev/documentation/components/
+![alt text](https://i.imgur.com/FB3YZbG.png)
+
+* Component Types
+![alt text](https://i.imgur.com/o25Ig2f.png)
