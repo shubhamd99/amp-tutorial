@@ -18,6 +18,7 @@
   <head>
     <meta charset="utf-8" />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
     <title>Chico's Cheese Bicycles</title>
     <link
       rel="shortcut icon"
@@ -468,9 +469,14 @@
     <header class="headerbar"><h2>Chico's Cheese Bicycles</h2></header>
     <main>
       <div class="main-content">
-        <img
+        <!-- https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/control_layout/ -->
+        <amp-img
+          alt="Bicycle"
+          width="640"
+          height="480"
+          layout="responsive"
           src="https://cdn.glitch.com/d7f46a57-0ca4-4cca-ab0f-69068dec6631%2Fricotta-racer.jpg?1540228217746"
-        />
+        ></amp-img>
         <div class="below-hero">
           <h2 class="main-heading">What we're about</h2>
           <p class="main-text">
