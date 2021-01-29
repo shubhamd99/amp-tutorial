@@ -36,6 +36,19 @@
 </html>
 ```
 
+* Live Website - https://tall-verbena-baritone.glitch.me
+
+* Code AMP - https://glitch.com/edit/#!/tall-verbena-baritone
+
 ![alt text](https://i.imgur.com/CM9eKOB.png)
 
 ![alt text](https://i.imgur.com/7ih3D6U.png)
+
+* Chrome Extension URL - https://bit.ly/2GcUrcG
+![alt text](https://i.imgur.com/MoDVG7M.png)
+
+![alt text](https://i.imgur.com/SHorfVd.png)
+
+![alt text](https://i.imgur.com/bIuXvhp.png)
+
+![alt text](https://i.imgur.com/kj6rRjX.png)
