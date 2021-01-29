@@ -6,6 +6,10 @@
 
 * Documentation - https://amp.dev/documentation/guides-and-tutorials/start/create/?format=websites
 
+* AMP Boilerplate Generator - https://amp.dev/boilerplate/
+
+* Supported CSS in AMP - https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/style_pages/
+
 * Example:
 
 ```
