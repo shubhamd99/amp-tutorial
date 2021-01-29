@@ -59,6 +59,9 @@
 
 ![alt text](https://i.imgur.com/kj6rRjX.png)
 
+* Basic AMP Website
+![alt text](https://i.imgur.com/HuWNi0X.png)
+
 * Product AMP Website
 ![alt text](https://i.imgur.com/ijVNj5O.png)
 
