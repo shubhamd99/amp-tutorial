@@ -73,3 +73,6 @@
 
 * Carousel Example
 ![alt text](https://i.imgur.com/9FiBTJy.png)
+
+* Events and Actions
+![alt text](https://i.imgur.com/FOfwnF6.png)
