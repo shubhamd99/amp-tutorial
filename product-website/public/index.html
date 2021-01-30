@@ -28,6 +28,8 @@
     <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
     <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
     <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+
     <title>Chico's Cheese Bicycles</title>
     <link
       rel="shortcut icon"
@@ -475,6 +477,14 @@
     </style>
   </head>
   <body>
+    <amp-state id="carouselWithState">
+        <script type="application/json">
+            {
+              "selectedSlide": 0
+            }
+        </script>
+    </amp-state>
+
     <header class="headerbar"><h2>Chico's Cheese Bicycles</h2></header>
     <main>
       <div class="main-content">
@@ -538,6 +548,38 @@
               </amp-img>
           </amp-carousel>
         </amp-selector>
+
+        <h2 class="main-heading">Carousel With AMP State</h2>
+        <amp-carousel
+          id="imageSlides"
+          layout="responsive"
+          type="slides"
+          width="412"
+          height="309"
+          loop
+          lightbox
+          [slide]="carouselWithState.selectedSlide"
+          on="slideChange:AMP.setState({ carouselWithState: { selectedSlide: event.index } })"
+        >
+          <amp-img src="https://cdn.glitch.com/d7f46a57-0ca4-4cca-ab0f-69068dec6631%2Fcheddar-chaser.jpg?v=1540228205366"
+            width="412"
+            height="309"
+            layout="responsive"
+            alt="a sample image"></amp-img>
+          <amp-img src="https://cdn.glitch.com/d7f46a57-0ca4-4cca-ab0f-69068dec6631%2Fricotta-racer.jpg?v=1540228217746g"
+            width="412"
+            height="309"
+            layout="responsive"
+            alt="another sample image"></amp-img>
+          <amp-img src="https://cdn.glitch.com/d7f46a57-0ca4-4cca-ab0f-69068dec6631%2Fparmesan-pacer.jpg?v=1540228219981"
+            width="412"
+            height="309"
+            layout="responsive"
+            alt="and another sample image"></amp-img>
+        </amp-carousel>
+        <p id="slideIndex" [text]="'Slide ' + (carouselWithState.selectedSlide + 1) + ' of 3'">
+            Slide 1 of 3
+        </p>
 
         <!-- https://amp.dev/documentation/components/amp-youtube/ -->
         <amp-youtube
