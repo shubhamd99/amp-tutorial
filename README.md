@@ -89,3 +89,9 @@ In Below example when state changes, the content inside the paragraph tag also c
 
 In Below Example when state changes, the paragraph tag will be hidden
 ![alt text](https://i.imgur.com/PqfC2SU.png)
+
+* Binding Expressions
+![alt text](https://i.imgur.com/FM4mOW7.png)
+
+* Binding Expressions Example with Password input field
+![alt text](https://i.imgur.com/cHoyxtx.png)
