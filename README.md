@@ -101,3 +101,6 @@ In Below Example when state changes, the paragraph tag will be hidden
 
 * Video Site
 ![alt text](https://i.imgur.com/sg7Gu7L.png)
+
+* Dynamic Amp List
+![alt text](https://i.imgur.com/rS2lZoi.png)
