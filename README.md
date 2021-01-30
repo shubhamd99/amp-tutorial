@@ -98,3 +98,6 @@ In Below Example when state changes, the paragraph tag will be hidden
 
 * Shopping Site with AMP
 ![alt text](https://i.imgur.com/Lhcb22s.png)
+
+* Video Site
+![alt text](https://i.imgur.com/sg7Gu7L.png)

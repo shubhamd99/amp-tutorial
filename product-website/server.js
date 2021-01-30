@@ -53,6 +53,11 @@ app.post('/submit-form', upload.array(), (req, res) => {
   res.send(JSON.stringify(req.body));
 });
 
+app.get('/videos', (req, res) => {
+  const videos = fs.readFileSync(__dirname + '/public/json/videos.json');
+  res.send(videos);
+});
+
 const server = app.listen(8081, '127.0.0.1', () => {
   const host = server.address().address;
   const port = server.address().port;
