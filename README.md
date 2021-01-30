@@ -78,3 +78,14 @@
 
 * Events and Actions
 ![alt text](https://i.imgur.com/FOfwnF6.png)
+
+* Intializing and Changing the AMP State
+![alt text](https://i.imgur.com/adTrduh.png)
+
+* AMP Bindings
+Allows elements to mutate in response to user actions or data changes via data binding and simple JS-like expressions.
+In Below example when state changes, the content inside the paragraph tag also changes
+![alt text](https://i.imgur.com/VlsucYo.png)
+
+In Below Example when state changes, the paragraph tag will be hidden
+![alt text](https://i.imgur.com/PqfC2SU.png)
